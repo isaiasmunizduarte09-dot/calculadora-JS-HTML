@@ -1,3 +1,26 @@
+// Funções da calculadora (disponíveis globalmente)
+function soma(a, b) {
+    return a + b;
+}
+
+function subtracao(a, b) {
+    return a - b;
+}
+
+function multiplicacao(a, b) {
+    return a * b;
+}
+
+function dividir(a, b) {
+    if (b === 0) return 'Erro: divisão por zero';
+    return a / b;
+}
+
+function exponencial(a, b) {
+    return Math.pow(a, b);
+}
+
+// (Opcional) funções existentes que você já tinha — mantenha se precisar do gráfico
 let valores = [];
 
 const addValores = (x) => {
